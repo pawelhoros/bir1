@@ -4,3 +4,5 @@ dist
 .env
 .tap
 .tsimp
+.DS_Store
+dokumentacja

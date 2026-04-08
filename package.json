@@ -1,6 +1,6 @@
 {
   "name": "bir1",
-  "version": "4.1.1",
+  "version": "5.0.0",
   "description": "GUS REGON api client",
   "keywords": [
     "companies",
@@ -8,9 +8,9 @@
     "nip",
     "gus"
   ],
-  "repository": "pawel-id/bir1",
+  "repository": "pawelhoros/bir1",
   "license": "MIT",
-  "author": "Paweł Idczak <pawel.idczak@gmail.com>",
+  "author": "Paweł Horoś <pawel.horos@gmail.com>",
   "type": "module",
   "types": "./dist/index.d.ts",
   "exports": {
