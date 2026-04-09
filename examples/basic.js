@@ -1,4 +1,4 @@
-import Bir from 'bir1'
+import Bir from '@pawel.horos/bir1'
 
 /**
  * In order to get up to date data from production environment, you need to

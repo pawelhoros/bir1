@@ -1,5 +1,5 @@
-import Bir from 'bir1'
-import { legacy, modern } from 'bir1/normalize'
+import Bir from '@pawel.horos/bir1'
+import { legacy, modern } from '@pawel.horos/bir1/normalize'
 
 /**
  * In previous version of that library (1.x, 2.x), there was some preprocessing

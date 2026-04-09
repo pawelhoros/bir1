@@ -1,4 +1,8 @@
-# BIR1 - GUS REGON client
+# @pawel.horos/bir1 - GUS REGON client
+
+> Fork of [bir1](https://github.com/pawel-id/bir1) by
+> [pawel-id](https://github.com/pawel-id), extended with BIR 1.2 API support
+> and PKD 2025 classification.
 
 Simple node.js client library to provide information about authorized government
 administration authorities, regional authorities, government institutions and to
@@ -23,13 +27,13 @@ written in TypeScript with carefully crafted type definitions. Enjoy!
 ## Install
 
 ```bash
-npm install bir1
+npm install @pawel.horos/bir1
 ```
 
 ## Quick start
 
 ```js
-import Bir from 'bir1'
+import Bir from '@pawel.horos/bir1'
 
 const bir = new Bir()
 console.log(await bir.search({ nip: '5261040567' }))
@@ -120,7 +124,7 @@ parameters:
 example:
 
 ```js
-import Bir from 'bir1'
+import Bir from '@pawel.horos/bir1'
 
 const bir = new Bir()
 console.log(await bir.search({ nip: '5261040567' }))
@@ -191,7 +195,7 @@ parameters:
 example:
 
 ```js
-import Bir from 'bir1'
+import Bir from '@pawel.horos/bir1'
 
 const bir = new Bir()
 console.log(
@@ -238,7 +242,7 @@ orginal SOAP messages.
 Take a look at the following example showing default behavior:
 
 ```js
-import Bir from 'bir1'
+import Bir from '@pawel.horos/bir1'
 const bir = new Bir()
 console.log(
   await bir.report({
@@ -262,8 +266,8 @@ casing, etc... Then in order to make it cleaner it is possible to provide a
 function to normalize the response:
 
 ```js
-import Bir from 'bir1'
-import { modern } from 'bir1/normalize'
+import Bir from '@pawel.horos/bir1'
+import { modern } from '@pawel.horos/bir1/normalize'
 const bir = new Bir({ normalizeFn: modern })
 console.log(
   await bir.report({

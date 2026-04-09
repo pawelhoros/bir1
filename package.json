@@ -1,5 +1,5 @@
 {
-  "name": "bir1",
+  "name": "@pawel.horos/bir1",
   "version": "5.0.0",
   "description": "GUS REGON api client",
   "keywords": [
@@ -46,6 +46,9 @@
     "tap": "^21.6.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "engines": {
     "node": ">=18"
