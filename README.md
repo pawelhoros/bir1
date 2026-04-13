@@ -221,12 +221,6 @@ parameters:
   - `BIR11NoweJednostkiLokalne`
   - `BIR11AktualizowaneJednostkiLokalne`
   - `BIR11SkresloneJednostkiLokalne`
-  - `BIR12NowePodmiotyPrawneOrazDzialalnosciOsFizycznych`
-  - `BIR12AktualizowanePodmiotyPrawneOrazDzialalnosciOsFizycznych`
-  - `BIR12SkreslonePodmiotyPrawneOrazDzialalnosciOsFizycznych`
-  - `BIR12NoweJednostkiLokalne`
-  - `BIR12AktualizowaneJednostkiLokalne`
-  - `BIR12SkresloneJednostkiLokalne`
 
 ---
 
@@ -340,7 +334,8 @@ classification. The following changes were made:
 4. New report variant `BIR121JednLokalnaOsPrawnej` provides legal entity local
    unit data with additional `lokpraw_nip` and `lokpraw_statusNip` fields.
 
-5. New `BIR12*` summary report types are available for `DanePobierzRaportZbiorczy`.
+5. `DanePobierzRaportZbiorczy` summary reports are unchanged — BIR 1.2 uses
+   the same `BIR11*` summary report types as before.
 
 ## Credits
 
